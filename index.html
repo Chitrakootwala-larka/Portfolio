@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dheeraj Portfolio</title>
+        <title>Er. Dheeraj Kumar</title>
 
         <!-- BOOTSTRAP 4.6 -->
         <link rel="stylesheet"
@@ -70,8 +70,9 @@ a {
 
 /* NAVBAR LINKS – animation applied */
 .navList .nav-link {
+    font-family: math;
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -81,6 +82,7 @@ a {
     opacity: 0;
     animation: slideLeft 1.5s ease forwards;
 }
+
 
 /* HOVER COLOR */
 .navList .nav-link:hover {
@@ -888,33 +890,35 @@ form{
     <body>
 
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navStyle">
-            <a class="brand-navbar" href="#"><img src="Logo.png"
-                    height="60px"></a>
-            <button class="navbar-toggler" data-toggle="collapse"
-                data-target="#mainMenu">
-                <span><i class="fas fa-align-right iconStyle"></i></span>
-            </button>
+<nav class="navbar navbar-expand-lg navStyle">
+    <a class="brand-navbar" href="#">
+        <img src="Logo.png" height="60px">
+    </a>
 
-            <div class="collapse navbar-collapse" id="mainMenu">
-                <ul class="navbar-nav ml-auto navList">
-                    <li class="nav-item active"><a href="#" class="nav-link"><i
-                                class="fas fa-home"></i> HOME</a></li>
-                    <li class="nav-item"><a href="#About" class="nav-link"><i
-                                class="fas fa-users"></i> About</a></li>
-                    <li class="nav-item"><a href="#services" class="nav-link"><i
-                                class="fas fa-cogs"></i> Education</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link"><i
-                                class="fas fa-briefcase"></i> Skills</a></li>
-                    <li class="nav-item"><a href="#project" class="nav-link"><i
-                                class="fa-duotone fa-solid fa-diagram-project"></i>
-                            Project</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link"><i
-                                class="fas fa-phone"></i> Contact</a></li>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+        <span><i class="fas fa-align-right iconStyle"></i></span>
+    </button>
 
-                </ul>
-            </div>
-        </nav>
+    <div class="collapse navbar-collapse" id="mainMenu">
+        <ul class="navbar-nav ml-auto navList">
+            <li class="nav-item active"><a href="#" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+
+            <!-- GitHub Button -->
+            <li class="nav-item">
+                <a href="https://github.com/Chitrakootwala-larka" 
+                   class="btn btn-light ml-3"  style="padding: 10px 16px; background: aqua; color: black;border-radius: 40px;  width: max-content;"
+                   target="_blank">
+                    <i class="fab fa-github"> GitHub Profile</i> 
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
         <!-- HOME SECTION -->
         <section class="home">
